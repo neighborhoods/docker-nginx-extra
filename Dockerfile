@@ -1,4 +1,4 @@
-FROM neighborhoods/nginx-auth-ldap:1.0
+FROM neighborhoods/nginx-auth-ldap:1.2.0
 
 COPY setup.sh /setup.sh
 RUN /setup.sh
